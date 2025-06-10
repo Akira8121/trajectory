@@ -44,6 +44,6 @@ https://akira8121.github.io/trajectory/
 
 # 実装機能一覧
 * 初回サイト閲覧時のログイン画面(JavaScript使用)
-* サイトメニュー(JavaScript使用)
+* ハンバーガーメニュー(JavaScript使用)
 * ページ内リンク(サイトメニューとボタン含む)
 * Contactページのチェックマークをクリックで送信ボタンを押せるようになる(JavaScript使用)
