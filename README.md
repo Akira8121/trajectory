@@ -8,6 +8,7 @@
 レスポンシブ対応していますので、スマホやタブレットからもご確認可能です。
 
 ▼URLはこちら▼
+https://akira8121.github.io/trajectory/
 
 
 # デザイン
