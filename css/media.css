@@ -1,0 +1,97 @@
+@charset "UTF-8";
+/* スマホ版表示 */
+@media screen and (max-width: 414px) {
+  .pc {
+    display: none;
+  }
+
+  .sp {
+    display: block;
+  }
+
+  .inner {
+    width: 100%;
+  }
+
+  /* headre */
+  .top-img{
+    height: 200px;
+    margin-bottom: 10px;
+  }
+
+  .title,.sub-title{
+    font-size: 2.5rem;
+    padding: 30px 0;
+    margin-bottom: 10px;
+   }
+
+   .main-text{
+    font-size: .9rem;
+    margin-bottom: 10px;
+   }
+
+   /* footer */
+   footer .copyright{
+    font-size: 1rem;
+    padding-bottom:5px;
+   }
+
+   footer .logo{
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+   }
+   /* ここからProfileページ */
+   .skill__wrap {
+    grid-template-columns: repeat(1, 1fr);
+   }
+   /* ここまでProfileページ */
+   /* ここからWorksページ */
+   .works__wrap {
+    grid-template-columns: repeat(1, 1fr);
+   }
+   .title-s{
+    font-size: 1.1rem;
+   }
+   /* ここまでWorksページ */
+   /* ここからWEBサイトページ */
+   .main-image{
+    display: block;
+    margin: 10px auto;
+   }
+
+   .vie,
+   .plando,
+   .edream,
+   .shinon{
+    margin: 10px 0;
+   }
+
+   .vie1,
+   .vie2,
+   .vie3,
+   .plando1,
+   .plando2,
+   .shinon1,
+   .shinon2{
+    width: 100%;
+    margin: 10px 0;
+   }
+   /* ここまでWEBサイトページ */
+   /* ここからContactページ */
+   .contact-form input[type="text"],
+   .contact-form input[type="tel"],
+   .contact-form input[type="email"] {
+    font-size: 1rem;
+   }
+
+   .contact-form .notes,
+   .contact-form .asterisk {
+    font-size: .9rem;
+   }
+
+   ::placeholder,.check-policy {
+    font-size: .9rem;
+    padding: 10px;
+   }
+}

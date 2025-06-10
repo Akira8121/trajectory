@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content=" ">
+    <meta name="format-detection" content="telephone=no">
+    <title>Contact - 「Trajectory」</title>
+    <!-- ファビコン -->
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+
+    <!-- リセットCSS -->
+    <link rel="stylesheet" href="./css/ress.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
+
+    <!-- Googleフォント -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- JavaScript -->
+    <script src="./js/script.js" defer></script>
+  </head>
+  <body>
+    <header class="page-header">
+        <div class="hamburger" id="hamburger">
+            <span></span>        
+            <span></span>       
+            <span></span>     
+        </div>
+
+        <nav class="menu btn" id="menu">
+            <ul class="main-nav font-english">
+                <li class="font-en"><a href="#about">About</a></li>   
+                <li class="font-en"><a href="profile.html">Profile</a></li>   
+                <li class="font-en"><a href="works.html">Works</a></li>   
+                <li class="font-en"><a href="contact.html">Contact</a></li>   
+            </ul>   
+        </nav>
+    </header>
+
+    <h1 class="con-img  top-img"></h1>
+
+    <section>
+        <div class="inner">
+            <div class="contact">
+                <h2 class="title font-en">Contact</h2>
+            </div>
+            <div class="contact-form">
+                <form class="validationForm" method="post" action="" enctype="">
+                        <dl>
+                          <dt><label for="your-name">お名前 <span class="asterisk">※</span></label></dt>
+                          <dd>
+                            <input class="contact-box" type="text" name="お名前" id="your-name" placeholder="例：福岡太郎">
+                          </dd>
+                          <dt><label for="phone-num">電話番号 <span class="asterisk">※</span></label></dt>
+                          <dd>
+                            <input class="contact-box" type="tel" name="電話番号" id="phone-num" placeholder="例：092-000-0000">
+                          </dd>
+                          <dt><label for="e-mail">メールアドレス <span class="asterisk">※</span></label></dt>
+                          <dd>
+                            <input class="contact-box" type="email" name="メールアドレス" id="e-mail" placeholder="例：info@trajectory.co.jp">
+                          </dd>
+                          <dt><label for="message">お問い合わせ内容</label></dt>
+                          <dd><textarea class="contact-box" name="お問い合わせ内容" id="message" placeholder="お問い合わせ内容をご記入ください。"></textarea></dd>
+                          <dt><label for="agreement">同意事項 <span class="asterisk">※</span></label></dt>
+                          <dd>
+                            <label for="agree">プライバシーポリシーに同意する</label><input id="check" type="checkbox" name="agree" value="同意事項"><br>
+                            <a href="#" class="check-policy">プライバシーポリシーのご確認はこちら</a>
+                          </dd>
+                        </dl>
+                        <p class="notes"><span class="asterisk">※</span>は必須項目です。</p>
+                        <input id="button" type="submit" value="送信する" disabled>
+                      </form>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="inner">
+            <h1 class="logo"><img src="./images/Misumi Akira.svg" alt="三角晶ロゴ"></h1>
+            <p class="copyright"><small>&copy; 三角晶　ポートフォリオ</small></p>
+        </div>
+    </footer>
+  </body>
+</html>
