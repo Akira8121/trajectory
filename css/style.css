@@ -252,8 +252,7 @@ footer .logo{
 }
 /* ここからProfileページ */
 .pro-img{
-    background-image: url(../images/profile_top.jpg);
-    background-repeat: no-repeat;
+    background: url(../images/profile_top.jpg) center/cover;
 }
 
 .prof img{
@@ -296,15 +295,15 @@ footer .logo{
 /* ここまでProfileページ */
 /* ここからWorksページ */
 .wor-img{
-    background-image: url(../images/works_top.jpg);
+    background: url(../images/works_top.jpg) center/cover;
 }
 
 .des-img{
-    background-image: url(../images/design_top.jpg);
+    background: url(../images/design_top.jpg) center/cover;
 }
 
 .web-img{
-    background-image: url(../images/website_top.jpg);
+    background: url(../images/website_top.jpg) center/cover;
 }
 
 p .works-text{
@@ -360,7 +359,6 @@ p .works-text{
 }
 
 .title-d,
-.title-s,
 .title-s{
     margin-top: 20px;
     padding-top: 20px;
@@ -410,7 +408,7 @@ p .works-text{
 
 .web-btn {
 	position: relative;
-    margin-left: 1rem;
+	margin-left: 1rem;
 	border: none;
 	border-bottom: 1px solid #000;
 	width: fit-content;
@@ -484,7 +482,7 @@ p .works-text{
 /* ここまでWEBサイトページ */
 /* ここからContactページ */
 .con-img{
-    background-image: url(../images/contact_top.jpg);
+    background: url(../images/contact_top.jpg) center/cover;
 }
 
 .contact-form{
